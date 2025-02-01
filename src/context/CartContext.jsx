@@ -11,19 +11,19 @@ export const CartProvider = ({ children }) => {
         if (existingProduct) {
          
             existingProduct.quantity += 1;
-            setCart([...cart]); // Update the cart state
+            setCart([...cart]); // Update cart state
         } else {
-            // If the product is not in the cart, add it with a quantity of 1
+            // If the product is not in the cart then added 1 quentity
             setCart([...cart, { ...product, quantity: 1 }]);
         }
     };
 
-    // Remove a product from the cart
+    // to remove
     const removeFromCart = (id) => {
         setCart(cart.filter((item) => item.id !== id));
     };
 
-    // Update the quantity of a product in the cart
+    //  to Update cart
     const updateQuantity = (id, quantity) => {
         const product = cart.find((item) => item.id === id);
 
@@ -33,8 +33,6 @@ export const CartProvider = ({ children }) => {
             setCart([...cart]); // Update the cart state
         }
     };
-
-    // Provide the cart and functions to manage it to all child components
     return (
         <CartContext.Provider value={{ cart, addToCart, removeFromCart, updateQuantity }}>
             {children}
