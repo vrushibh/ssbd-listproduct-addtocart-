@@ -89,8 +89,7 @@ Feel free to contribute and make this project even better! Here's how you can ge
    `git commit -m "Added new feature"`
 4. Push your changes and **submit a pull request**.
 
-📧 Contact Us
-For feedback or queries, feel free to reach out:
+## 📧 Contact Us
 📩 Vrushibh: rishibh.bhalodiya@gmail.com
 
 Have questions or suggestions? Feel free to reach out. Let’s make coding fun and collaborative!
