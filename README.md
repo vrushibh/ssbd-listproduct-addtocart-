@@ -55,8 +55,7 @@ Visit `http://localhost:5000`
   ├── pages/             # Product List & Cart pages  
   ├── context/           # Cart state management  
   ├── services/          # API calls  
-  ├── styles/            # CSS for UI styling  
-  ├── utils/             # Helper functions  
+  ├── styles/            # CSS for UI styling   
 ```
 
 ---
