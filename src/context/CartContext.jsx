@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
         setCart(cart.filter((item) => item.id !== id));
     };
 
-    //  to Update cart
+    //  to Update cart.
     const updateQuantity = (id, quantity) => {
         const product = cart.find((item) => item.id === id);
 
